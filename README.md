@@ -41,8 +41,11 @@ const store = new KVStore("your-app-id", {
 });
 ```
 
-> It's recommended to enable cache if values are modified by only one program.
-⚠️ Make sure to keep your app key secure and not exposed
+> [!Important]
+> It's recommended to enable cache if values are modified by only one program/application.
+
+> [!Warning]
+> Make sure to keep your app key secure and not exposed
 
 
 ## API
